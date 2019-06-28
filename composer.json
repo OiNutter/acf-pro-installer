@@ -1,5 +1,5 @@
 {
-  "name": "philippbaschke/acf-pro-installer",
+  "name": "oinutter/acf-pro-installer",
   "description": "An install helper for Advanced Custom Fields PRO",
   "type": "composer-plugin",
   "license": "MIT",
@@ -7,6 +7,10 @@
     {
       "name": "Philipp Baschke",
       "email": "philipp@baschke.com"
+    },
+    {
+      "name": "Will McKenzie",
+      "email": "will@oinutter.co.uk"
     }
   ],
   "keywords": [
@@ -24,10 +28,10 @@
     "satooshi/php-coveralls": "1.*"
   },
   "autoload": {
-    "psr-4": { "PhilippBaschke\\ACFProInstaller\\": "src/ACFProInstaller" }
+    "psr-4": { "OiNutter\\ACFProInstaller\\": "src/ACFProInstaller" }
   },
   "extra": {
-    "class": "PhilippBaschke\\ACFProInstaller\\Plugin"
+    "class": "OiNutter\\ACFProInstaller\\Plugin"
   },
   "scripts": {
     "lint": "phpcs src tests --standard=PSR2",
